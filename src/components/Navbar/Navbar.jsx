@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FiAlignJustify } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 const Navbar = () => {
-  const [menu, setMenu] = useState(true);
+  const [menu, setMenu] = useState(false);
   const [showMenu, setShowMenu] = useState(true);
 
   return (
@@ -29,28 +29,29 @@ const Navbar = () => {
         <ul
           className={` ${
             menu ? "block" : "hidden"
-          }  py-5 mt-4 bg-black  px-2 rounded-xl bg-opacity-30 text-center md:flex md:static text-sm md:text-md md:bg-transparent md:mt-0  md:gap-6`}
+          }   mt-4  px-2 rounded-xl bg-opacity-30 text-center md:flex md:static text-sm md:text-md md:bg-transparent md:mt-0  md:gap-6`}
         >
-          <Link to="#About">
+          <a href="#About">
             <li className="text-md transition-all duration-300 p-1 md:p-0 ">
               About
             </li>
-          </Link>
-          <Link to={""}>
+          </a>
+          <a href="#Skills">
             <li className="text-md transition-all duration-300 p-1 md:p-0 ">
               Skills
             </li>
-          </Link>
-          <Link to={""}>
+          </a>
+          <a href="#Projects">
             <li className="text-md transition-all duration-300 p-1 md:p-0 ">
-              Projects
+             Projects
             </li>
-          </Link>
-          <Link to={""}>
+            </a>
+        
+          <a href="#Contact">
             <li className="text-md transition-all duration-300 p-1 md:p-0 ">
               Contact
             </li>
-          </Link>
+          </a>
         </ul>
       
     </nav>
