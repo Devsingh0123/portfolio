@@ -8,9 +8,9 @@ const Navbar = () => {
 
   return (
     <nav className="flex flex-col justify-center items-center text-[#FFFFFF] md:flex md:flex-row md:justify-between md:items-center md:py-4 md:px-12 ">
+      <div className=" w-full flex  justify-between px-10">
       <span className="text-xl font-bold tracking-wide">Portfolio</span>
-      
-        {showMenu ? (
+      <span className="text-xl font-bold tracking-wide">{showMenu ? (
           <FiAlignJustify
             className=" md:hidden "
             onClick={() => {
@@ -24,7 +24,9 @@ const Navbar = () => {
               setMenu(!menu)
               ;
             }} />
-        )}
+        )}</span></div>
+      
+        
 
         <ul
           className={` ${
