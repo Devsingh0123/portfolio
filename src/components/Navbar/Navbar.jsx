@@ -7,7 +7,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(true);
 
   return (
-    <nav className="flex flex-col justify-center items-center text-[#FFFFFF] md:flex md:flex-row md:justify-between md:items-center md:py-4 md:px-12 ">
+    <nav className="flex flex-col justify-center items-center text-[#FFFFFF] md:flex md:flex-row md:justify-between md:items-center pt-4 md:px-12 ">
       <div className=" w-full flex  justify-between px-10 md:px-0 ">
       <span className="text-xl font-bold tracking-wide">Portfolio</span>
       <span className="text-xl font-bold tracking-wide">{showMenu ? (

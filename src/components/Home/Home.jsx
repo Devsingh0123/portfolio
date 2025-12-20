@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div  className="text-white md:flex items-center  md:justify-center  shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12">
-      <div className="md:w-2/4 pt-10">
+    <div  className="text-white md:flex items-center  md:justify-center  shadow-xl mx-0 md:mx-20 bg-opacity-30  p-12 rounded-t-lg ">
+      <div className="md:w-2/4 ">
         <h1 className="text-3xl md:text-6xl font-bold flex leading-normal  tracking-tighter">
           Hello,I am Dev
         </h1>

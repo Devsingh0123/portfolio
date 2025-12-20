@@ -88,8 +88,8 @@ import SkillCard from "./SkillCard";
 
 const Skills = () => {
   return (
-    <div className="px-10 py-20 text-white">
-      <h1 className="text-4xl font-bold mb-12">Skills</h1>
+    <div id="Skills" className="p-12 text-white md:mx-20">
+      <h1 className="text-2xl md:text-4xl font-bold">Skills</h1>
       <div className="px-[30%]">
         {/* Frontend */}
         <div className="mb-10">
