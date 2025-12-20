@@ -1,9 +1,9 @@
 import React from "react";
-import ProjectLogo from "../../assets/ProjectLogo.png";
-const ProjectCard = ({ title, main }) => {
+import AirbnbLogo from "../../assets/AirbnbLogo.png";
+const ProjectCard = ({ title, main,logo }) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] rounded-lg shadow-xl shadow-slate-900 ">
-      <img className="p-4" src={ProjectLogo} alt="" />
+      <img className="p-4 w-[100%] h-[25%] " src={logo} alt="" />
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}
       </h3>

@@ -10,7 +10,7 @@ const Home = () => {
       <div className="md:w-2/4 ">
         <h1 className="text-3xl md:text-6xl font-bold flex leading-normal  tracking-tighter">
           Hello,I am Dev
-        </h1>
+        </h1> 
 
         <p className="text-sm md:text-2xl tracking-tight">
           I'm a passionate learner who's always willing to learn and work across
@@ -20,7 +20,7 @@ const Home = () => {
             href="/Dev_Singh_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[15px] underline text-black"
+            className="text-[15px] underline text-black hover:font-semibold"
           >
             [View Resume]
           </a>
