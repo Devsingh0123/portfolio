@@ -8,7 +8,12 @@ const Projects = () => {
     <div id="Projects" className="p-12  text-white md:mx-20 ">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
 
-      <div className="py-12 px-20 flex flex-wrap gap-5 shadow-xl bg-opacity-30 rounded-lg">
+      <div className="py-12 
+  px-4 sm:px-8 md:px-12 lg:px-20
+  flex flex-wrap gap-6
+  justify-center md:justify-start
+  items-stretch
+  shadow-xl bg-opacity-30 rounded-lg">
         <ProjectCard
           title="Airbnb-Clone"
           logo={AirbnbLogo}
