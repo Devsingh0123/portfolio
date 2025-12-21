@@ -39,7 +39,7 @@ const Footer = () => {
      
       <div
         id="Contact"
-        className="relative bg-gradient-to-r from-[#000000] to-[#1a1a1a] text-white py-5 px-6 md:px-16"
+        className="relative bg-gradient-to-r bg-[#000000] to-[#1a1a1a] text-white py-5 px-6 md:px-16"
       >
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
