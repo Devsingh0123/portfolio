@@ -6,6 +6,7 @@ import resume from "/Dev_Singh_Resume.pdf"
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  
   return (
     <div  className="text-white md:flex items-center  md:justify-center  shadow-xl mx-0 md:mx-20 bg-opacity-30  p-12 rounded-t-lg ">
       <div className="md:w-2/4 ">
