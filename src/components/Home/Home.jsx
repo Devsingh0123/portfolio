@@ -1,6 +1,7 @@
 import React from "react";
 
 import img1 from "../../assets/img1.png";
+import resume from "/Dev_Singh_Resume.pdf"
 
 import { Link } from "react-router-dom";
 
@@ -17,7 +18,7 @@ const Home = () => {
           technologies and domains. I love to explore new technologies to solve
           real-world problem.
           <a
-            href="/Dev_Singh_Resume.pdf"
+            href={resume}
             target="_blank"
             rel="noopener noreferrer"
             className="text-[15px] underline text-black hover:font-semibold"
