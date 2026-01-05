@@ -27,8 +27,7 @@ browse listings, and manage bookings with secure authentication and role-based a
         <ProjectCard
           title="Youtue Clone"
           logo={YouTubeLogo}
-          main="Developed a full-stack Airbnb-like web application enabling users to list properties, 
-browse listings, and manage bookings with secure authentication and role-based access. "
+          main="Developed YouTube-like platform allowing users to browse, search, and play videos with responsive card-based UI and fixed controls"
           demoLink="https://you-tube-clone-gilt-nine.vercel.app/"
           GithubLink="https://github.com/Devsingh0123/YouTube-Clone"
         />
