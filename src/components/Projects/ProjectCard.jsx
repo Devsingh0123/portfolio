@@ -4,7 +4,7 @@ const ProjectCard = ({ title, main, logo, demoLink, GithubLink }) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] rounded-lg shadow-xl shadow-slate-900 ">
       <img className="p-4 w-[100%] h-[25%] " src={logo} alt="" />
-      <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
+      <h3 className="px-4 text-xl  md:text-2xl font-bold leading-normal truncate">
         {title}
       </h3>
       <p className="px-4 text-sm md:text-md leading-tight py-2">{main}</p>

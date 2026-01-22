@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import AirbnbLogo from "../../assets/AirbnbLogo.png";
 import YouTubeLogo from "../../assets/YouTubeLogo.png";
+import TaskManagementLogo from "../../assets/TaskManagementLogo.jpg"
 
 const Projects = () => {
   return (
@@ -31,11 +32,16 @@ browse listings, and manage bookings with secure authentication and role-based a
           demoLink="https://you-tube-clone-gilt-nine.vercel.app/"
           GithubLink="https://github.com/Devsingh0123/YouTube-Clone"
         />
+        
         <ProjectCard
-          title="Netflix Clone"
-          main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
+          title="Task Management App"
+          logo={TaskManagementLogo}
+          main="This is a full-stack Task Management application.
+
+
+Users can register, log in, and manage their personal tasks through a clean and responsive dashboard."
         />
-        <div></div>
+        
       </div>
     </div>
   );
