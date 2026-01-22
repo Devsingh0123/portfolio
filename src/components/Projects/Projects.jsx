@@ -40,6 +40,8 @@ browse listings, and manage bookings with secure authentication and role-based a
 
 
 Users can register, log in, and manage their personal tasks through a clean and responsive dashboard."
+demoLink="https://frontend-developer-task-rho.vercel.app/"
+          GithubLink="https://github.com/Devsingh0123/Frontend-Developer-Task"
         />
         
       </div>
