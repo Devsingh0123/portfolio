@@ -1,5 +1,4 @@
 import React from "react";
-import AirbnbLogo from "../../assets/AirbnbLogo.png";
 const ProjectCard = ({ title, main, logo, demoLink, GithubLink }) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] rounded-lg shadow-xl shadow-slate-900 ">
